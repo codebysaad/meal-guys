@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Meal Guys</string>
+    <string name="meals_today_s">Meals Categories</string>
+    <string name="tv_login">Login</string>
+</resources>
