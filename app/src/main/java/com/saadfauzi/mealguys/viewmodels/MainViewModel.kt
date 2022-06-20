@@ -17,9 +17,6 @@ class MainViewModel: ViewModel() {
     private val _isLoading = MutableLiveData<Boolean>()
     val isLoading: LiveData<Boolean> = _isLoading
 
-//    private val _isMessage = MutableLiveData<Event<String?>>()
-//    val isMessage: LiveData<Event<String?>> = _isMessage
-
     private val _responseCountry = MutableLiveData<CountryModel>()
     val responseData: LiveData<CountryModel> = _responseCountry
 

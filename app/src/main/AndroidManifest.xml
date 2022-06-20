@@ -4,6 +4,7 @@
     package="com.saadfauzi.mealguys">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -14,20 +15,46 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MealGuys"
-        tools:targetApi="31">
+        tools:targetApi="32">
         <activity
-            android:name=".activities.DetailMealActivity"
-            android:exported="false" />
-        <activity
-            android:name=".activities.ListMealsActivity"
+            android:name=".activities.ProfileActivity"
             android:exported="false"
-            android:theme="@style/Theme.MealGuys" />
+            android:label="@string/profile"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.BookmarkActivity"
+            android:exported="false"
+            android:label="@string/bookmark"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MealGuys.NoActionBar" />
         <activity
             android:name=".activities.LoginActivity"
             android:exported="false"
             android:theme="@style/Theme.MealGuys.NoActionBar" />
         <activity
+            android:name=".activities.SettingsActivity"
+            android:exported="false"
+            android:label="@string/settings"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.DetailMealActivity"
+            android:exported="false"
+            android:label="@string/meal_details"
+            android:parentActivityName=".activities.ListMealsActivity" />
+        <activity
+            android:name=".activities.ListMealsActivity"
+            android:exported="false"
+            android:label="@string/list_meals"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
             android:name=".activities.MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MealGuys.NoActionBar" />
+        <activity
+            android:name=".activities.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.MealGuys.NoActionBar">
             <intent-filter>

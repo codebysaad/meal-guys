@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meal Guys</string>
+    <string name="meals_today_s">Kategori Pangan</string>
+    <string name="tv_login">Mlebu</string>
+    <string name="btn_view_on_youtube">Deleng ing Youtube</string>
+    <string name="title_ingredient">Bahan</string>
+    <string name="title_instruction">Petunjuk</string>
+    <string name="about">Babagan</string>
+    <string name="logout">Metu</string>
+    <string name="settings">Tatanan</string>
+    <string name="email">Email</string>
+    <string name="password">Sandhi</string>
+    <string name="error_empty_password">Lebokno sandhimu</string>
+    <string name="error_empty_email">Lebokno emailmu</string>
+    <string name="error_email">Lebokno email sing bener</string>
+    <string name="error_pass">Tembung sandhi kudu minimal 6 huruf</string>
+    <string name="error_passwords_not_identical">Tembung sandhi ora padha</string>
+    <string name="yes">Yo</string>
+    <string name="no">Ora</string>
+    <string name="message_logout">Opo sampeyan pengin metu saka akun kasebut?</string>
+    <string name="message_close_app">Opo sampeyan yakin bakal nutup aplikasi kasebut?</string>
+    <string name="dark_mode">Mode Peteng</string>
+    <string name="tv_register">Dhaptar</string>
+    <string name="confirm_password">Konfirmasi sandhi</string>
+    <string name="don_t_have_an_account">Durung duwe akun? Dhaptar ning kene!</string>
+    <string name="already_have_an_account">Wis duwe akun? Mangga mlebu kene!</string>
+    <string name="countries_meals">Panganan miturut Negara</string>
+    <string name="bookmark">Tetenger</string>
+    <string name="unbookmark">Mbusak Tetenger</string>
+    <string name="profile">Profil</string>
+    <string name="bookmarked_meals">Panganan diwenehi tetenger</string>
+    <string name="success_add_to_bookmark">Sukses panganan ditambahke tetenger</string>
+    <string name="success_delete_bookmark_meal">Mbusak tetenger panganan sukses</string>
+    <string name="change_language">Ganti Basa</string>
+    <string name="meal_details">Rincian Panganan</string>
+    <string name="list_meals">Dhaptar Panganan</string>
+</resources>

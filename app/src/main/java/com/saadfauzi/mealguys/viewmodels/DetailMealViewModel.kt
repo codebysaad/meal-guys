@@ -4,14 +4,17 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.saadfauzi.mealguys.database.MealsDao
+import com.saadfauzi.mealguys.database.MealsEntity
 import com.saadfauzi.mealguys.models.DetailMealModel
 import com.saadfauzi.mealguys.models.FilterMealModel
 import com.saadfauzi.mealguys.remote.ApiConfiguration
+import com.saadfauzi.mealguys.repository.MealsRepository
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class DetailMealViewModel: ViewModel() {
+class DetailMealViewModel (private val repository: MealsRepository): ViewModel() {
 
     private val _isLoading = MutableLiveData<Boolean>()
     val isLoading: LiveData<Boolean> = _isLoading
@@ -35,4 +38,12 @@ class DetailMealViewModel: ViewModel() {
             }
         })
     }
+
+    fun getAllBookmarkedMeals() = repository.getAllBookmarkedMeals()
+
+    fun getItemIsBookmarked(idMeal: String) = repository.mealIsBookmarked(idMeal)
+
+    fun addBookmarkMeal(meal: MealsEntity) = repository.setBookmarkMeal(meal, true)
+
+    fun deleteBookmarkedMeal(idMeal: String) = repository.deleteBookmarkMeal(idMeal)
 }

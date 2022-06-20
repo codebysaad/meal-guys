@@ -56,7 +56,7 @@ data class DetailMealsItem(
 	val strTags: String? = null,
 
 	@field:SerializedName("idMeal")
-	val idMeal: String? = null,
+	val idMeal: String,
 
 	@field:SerializedName("strInstructions")
 	val strInstructions: String? = null,

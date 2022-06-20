@@ -3,14 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/drawable-v24/ic_logout.xml" value="0.165" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/drawable/bg_progressbar.xml" value="0.12" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/drawable/ic_isfavorite.xml" value="0.165" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/drawable/ic_logout.xml" value="0.165" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/drawable/ic_place_holder.xml" value="0.143" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/layout/activity_detail_meal.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/drawable/ic_unfavorite.xml" value="0.165" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/layout/activity_bookmark.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/layout/activity_detail_meal.xml" value="0.264" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/layout/activity_list_meals.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/layout/activity_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/layout/activity_register.xml" value="0.253125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/layout/activity_search.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/layout/items_meals_layout.xml" value="0.264" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/layout/items_our_meals.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/layout/items_row_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/menu/detail_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MealGuys/app/src/main/res/menu/user_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

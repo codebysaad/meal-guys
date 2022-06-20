@@ -1,6 +1,7 @@
 package com.saadfauzi.mealguys.remote
 
 import androidx.viewbinding.BuildConfig
+import com.saadfauzi.mealguys.helpers.Utilities
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -18,7 +19,7 @@ class ApiConfiguration {
                 .addInterceptor(loggingInterceptor)
                 .build()
             val retrofit = Retrofit.Builder()
-                .baseUrl("https://www.themealdb.com/api/json/v1/1/")
+                .baseUrl(Utilities.ENDPOINT)
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build()

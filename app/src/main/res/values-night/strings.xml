@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Meal Guys</string>
     <string name="meals_today_s">Meals Categories</string>
     <string name="tv_login">Login</string>
+    <string name="btn_view_on_youtube">View on Youtube</string>
+    <string name="title_ingredient">Ingredient</string>
+    <string name="title_instruction">Instruction</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="error_empty_password">Enter your password</string>
+    <string name="error_empty_email">Enter your email</string>
+    <string name="error_email">Enter your valid email address</string>
+    <string name="error_pass">Password must at least 6 char</string>
+    <string name="error_passwords_not_identical">Passwords are not identical</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="message_logout">Are you sure to logout?</string>
+    <string name="message_close_app">Are you sure to close the app?</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="tv_register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="don_t_have_an_account">Don\'t have an account? Register Here!</string>
+    <string name="already_have_an_account">Already have an account? Please Login Here!</string>
+    <string name="countries_meals">Countries Meals</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="unbookmark">Unbookmark</string>
+    <string name="profile">Profile</string>
+    <string name="bookmarked_meals">Bookmarked Meals</string>
+    <string name="success_add_to_bookmark">Meal success add to bookmark</string>
+    <string name="success_delete_bookmark_meal">Delete meal bookmark success</string>
+    <string name="change_language">Change Language</string>
+    <string name="meal_details">Meal Details</string>
+    <string name="list_meals">List Meals</string>
 </resources>

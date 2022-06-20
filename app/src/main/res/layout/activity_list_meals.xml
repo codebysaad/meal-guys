@@ -11,6 +11,7 @@
         android:id="@+id/rv_list_meals"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:scrollbars="none"
         tools:listitem="@layout/items_our_meals"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
